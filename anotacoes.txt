@@ -1,10 +1,10 @@
 Aula01 - 03/03 ==> 4.3.3 - Listas pagina 47
 Aula02 - 10/03 ==> 4.5 booleanos pag 55
-Aula03 - 24/03 ==>
-Aula04 -
-Aula05 - 31/03
-Aula06 - 07/04
-Aula07 - 14/04
-Aula08 - 21/04
-Aula09 - 28/04
-Aula10 - 05/05
+Aula03 - 24/03 ==> Pulamos pra loops
+Aula04 - 01/04 (quarta) ==> Capitulo 09 => 9.1Strings
+Aula05 - 07/04
+Aula06 - 14/04
+Aula07 - 21/04
+Aula08 - 28/04
+Aula09 - 05/05
+Aula10 - 12/05
