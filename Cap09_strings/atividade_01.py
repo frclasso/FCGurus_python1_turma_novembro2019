@@ -35,3 +35,21 @@ print(email)
 cliente1 = [nome_completo, cpf_new, idt, tel,email]
 print(cliente1)
 
+
+"""Atividade proposta"""
+
+"""
+ Copiem o conteúdo do arquivo: 00_snippets > clientes.csv
+ 
+ em um arquivo Python criem uma lista clientes = [] e colem o conteúdo;
+ 
+ 1) Verificar se todos os CPFs são válidos ( se sao inteiros e com o tamanho padrão), corrija os inválidos;
+ 2) Verificar se todas as idades são válidas (se sao inteiras e dentro do limite "humano")
+ https://pt.wikipedia.org/wiki/Lista_das_pessoas_mais_velhas_do_mundo, corrija os inválidos
+ 
+ 3) limpar os caracters do campo telefone "(" ")" "-", 
+ 
+ 4) Verificar se todos os email são válidos, corrija os inválidos
+"""
+
+# Dicas usar o scriot acima e script01.py deste capítulo
