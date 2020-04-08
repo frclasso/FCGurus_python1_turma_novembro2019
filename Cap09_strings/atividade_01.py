@@ -52,4 +52,4 @@ print(cliente1)
  4) Verificar se todos os email são válidos, corrija os inválidos
 """
 
-# Dicas usar o scriot acima e script01.py deste capítulo
+# Dicas usar o script acima e script01.py deste capítulo
