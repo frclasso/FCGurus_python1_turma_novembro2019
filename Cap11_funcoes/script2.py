@@ -15,20 +15,23 @@ pessoas = {
 # print(pessoas[1])
 # pessoas[1]['telefone'] = '(48)99177777'
 # print(pessoas[1])
-for k, v in pessoas.items():
-    # print(k, v)
-    v['telefone'] = '(48)99997777'
+
+def insere_telefone():
+    for k, v in pessoas.items():
+        # print(k, v)
+        v['telefone'] = '(48)99997777'
 
 # 2) Sobrenomes
 # pessoas[1]['sobrenome'] = 'Lennon'
 lista_de_sobrenomes = ['Lennon', 'Fonda', 'Jane','Parker', 'Potter','Sarandon', 'Jackson', 'Hendrix']
 
-count = 0
-for k, v in pessoas.items():
-    #print(k, v)
-    v['sobrenome'] = lista_de_sobrenomes[count]
-    count += 1
-    #print(v)
+def insere_sobrenome():
+    count = 0
+    for k, v in pessoas.items():
+        #print(k, v)
+        v['sobrenome'] = lista_de_sobrenomes[count]
+        count += 1
+        #print(v)
 
 # 3) email
 nome = pessoas[1]['nome']
@@ -36,14 +39,15 @@ sobrenome = pessoas[1]['sobrenome']
 empresa = 'apple'
 
 email = nome.lower() + '.' + sobrenome.lower() + '@'+ empresa.lower() +'.com'
-print(email)
+#print(email)
 
 # criar uma lista de empresas, semelhante o caso (2)
 lista_de_empresas = []
 
-for k, v in pessoas.items():
-    # print(k, v)
-    v['email'] = email
+def insere_email():
+    for k, v in pessoas.items():
+        # print(k, v)
+        v['email'] = email
 
 
 # remover coluna sex
@@ -51,11 +55,23 @@ for k, v in pessoas.items():
 # # pessoas[1]['sex']
 # # print(pessoas[1]['sex'])
 
-for k, v in pessoas.items():
-    #v.pop('sex')
-    #v.__delitem__('sex')
-    del v['sex']
+def deleta_campo():
+    for k, v in pessoas.items():
+        #v.pop('sex')
+        #v.__delitem__('sex')
+        del v['sex']
 
 
-for k, v in pessoas.items():
-    print(k, v)
+def atualiza_conteudo():
+    for k, v in pessoas.items():
+        print(k, v)
+
+
+def main():
+    insere_telefone()
+    insere_sobrenome()
+    insere_email()
+    deleta_campo()
+    atualiza_conteudo()
+
+main()
