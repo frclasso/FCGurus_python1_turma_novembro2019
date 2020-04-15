@@ -1,9 +1,9 @@
 Aula01 - 03/03 ==> 4.3.3 - Listas pagina 47
 Aula02 - 10/03 ==> 4.5 booleanos pag 55
 Aula03 - 24/03 ==> Pulamos pra loops
-Aula04 - 01/04 (quarta) ==> Capitulo 09 => 9.1Strings
-Aula05 - 07/04 => dicionarios(script2 - atividade), germany_dict => converter pra lista, Cap09_strings(atividade_01)
-Aula06 - 14/04 ** Tuplas, Sets, Frozensets, Estruturas de decisão,
+Aula04 - 01/04 ==> Capitulo 09 => 9.1Strings
+Aula05 - 07/04 ==> dicionarios(script2 - atividade), germany_dict => converter pra lista, Cap09_strings(atividade_01)
+Aula06 - 14/04 ==> Tuplas pag 141, Sets, Frozensets, Estruturas de decisão,Funções pag 157
 Aula07 - 21/04
 Aula08 - 28/04
 Aula09 - 05/05
