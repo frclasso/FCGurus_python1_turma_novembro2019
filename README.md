@@ -1,4 +1,4 @@
-Python 3 - módulo 1 - Autoamtizando Rotinas de Escritório
+Python 3 - módulo 1 - Automtizando Rotinas de Escritório
 =========================================================
 
 Neste curso aprenderemos como automatizar rotinas de escritório, tais como: 
