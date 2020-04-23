@@ -13,8 +13,13 @@ def calcula_imc():
     lista_de_pacientes.append(paciente)
 
 
+def lista_pacientes():
+    for user in lista_de_pacientes:
+        print(user)
+
+
 def menu_opcoes():
-    menu =''
+    menu = ''
 
     while menu != 0:
         menu = int(input(
@@ -31,14 +36,12 @@ def menu_opcoes():
             print()
             print('Inserindo novo cadastro: ______')
             print()
-            calcula_imc() # chamada da funcao, executa
+            calcula_imc() #<<< chamada da funcao, executa
 
         elif menu == 2:
             print('Lista de usuarios cadastrados')
 
-            ## converter em funcao
-            for user in lista_de_pacientes:
-                print(user)
+            lista_pacientes() ## <<< funcao
         elif menu == 3:
             print('Salvando dados')
         elif menu == 0:

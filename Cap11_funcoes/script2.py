@@ -11,54 +11,58 @@ pessoas = {
     8:{'nome':'Jimmy', 'sobrenome':'', 'idade':20, 'sex':'M'},
 }
 
-# 1) Inserir um campo, telefone
-# print(pessoas[1])
-# pessoas[1]['telefone'] = '(48)99177777'
-# print(pessoas[1])
+lista_de_emails = []
+lista_de_sobrenomes = ['Lennon', 'Fonda', 'Jane','Parker', 'Potter','Sarandon', 'Jackson', 'Hendrix']
+lista_de_empresas = ['Audi', 'VolksWagen', 'Ford', 'BMW', 'FIAT', 'GMC', 'Apple','Fender']
+lista_de_nomes = []
+
 
 def insere_telefone():
+    """# 1) Inserir um campo, telefone"""
     for k, v in pessoas.items():
         # print(k, v)
         v['telefone'] = '(48)99997777'
 
-# 2) Sobrenomes
-# pessoas[1]['sobrenome'] = 'Lennon'
-lista_de_sobrenomes = ['Lennon', 'Fonda', 'Jane','Parker', 'Potter','Sarandon', 'Jackson', 'Hendrix']
 
 def insere_sobrenome():
+    """# 2) Sobrenomes"""
     count = 0
     for k, v in pessoas.items():
         #print(k, v)
         v['sobrenome'] = lista_de_sobrenomes[count]
         count += 1
-        #print(v)
 
-# 3) email
-nome = pessoas[1]['nome']
-sobrenome = pessoas[1]['sobrenome']
-empresa = 'apple'
 
-email = nome.lower() + '.' + sobrenome.lower() + '@'+ empresa.lower() +'.com'
-#print(email)
+def get_nomes():
+    """Funcao que recupera nomes do dicionario pessoas"""
+    for k, v in pessoas.items():
+        lista_de_nomes.append(v['nome'])
 
-# criar uma lista de empresas, semelhante o caso (2)
-lista_de_empresas = []
+
+def gera_email():
+    """3) Funcao recebe nome, sobrenome e nome da empreasa para gerar email padronizado"""
+    get_nomes() ## <<< chamei uma funcao dentro do escopo da outra
+
+    for nome, s_nome, emp in zip(lista_de_nomes, lista_de_sobrenomes, lista_de_empresas):
+        # print(nome, s_nome, emp)
+        email = nome.lower() + '.' + s_nome.lower() + '@'+ emp.lower() +'.com'
+        #print(email)
+        lista_de_emails.append(email)
+
 
 def insere_email():
+    """Insere o campo email no dicionario"""
+    gera_email()  ## <<< chamei uma funcao dentro do escopo da outra
+
+    count = 0
     for k, v in pessoas.items():
         # print(k, v)
-        v['email'] = email
+        v['email'] = lista_de_emails[count]
+        count += 1
 
-
-# remover coluna sex
-# print(pessoas[1]['sex'])
-# # pessoas[1]['sex']
-# # print(pessoas[1]['sex'])
 
 def deleta_campo():
     for k, v in pessoas.items():
-        #v.pop('sex')
-        #v.__delitem__('sex')
         del v['sex']
 
 
@@ -69,9 +73,9 @@ def atualiza_conteudo():
 
 def main():
     insere_telefone()
-    insere_sobrenome()
+    #insere_sobrenome()
     insere_email()
-    deleta_campo()
+    #deleta_campo()
     atualiza_conteudo()
 
 main()
