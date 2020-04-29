@@ -49,7 +49,7 @@ clientes = [
     'David Redner',69,54139065088,'d.redner@email.com','(37) 5207-3391','Duque de Caxias','RJ','1980-08-18 07:31:41.462454',
     'Ashley Lange',93,64585425998,'a.lange@email.com','(08) 2451-1700','Belem','PA','2008-02-08 16:43:24.906765',
     'Alberta Leo',34,14110370497,'a.leo@email.com','(87) 8898-3675','Recife','PE','1984-02-24 07:04:51.689902',
-    'Grace Burton',64,12279843746,'g.burton@email.com','(46) 7057-5989','Recife','PE','1980-09-11 10:32:56.671245',
+    'Grace Burton',64,12279843746,'g.burton@email.com','(46) 7057-5989,Recife','PE','1980-09-11 10:32:56.671245',
     'Ryan Frascone',29,22447068788,'r.frascone@email.com','(83) 6996-0646','Campo Grande','MS','1982-12-08 01:19:06.593844',
     'Charles Blair',24,20631737248,'c.blair@email.com','(31) 5253-7967','Sao Luis','MA','2010-08-19 02:08:46.898834',
     'James Gourd',92,94002686987,'j.gourd@email.com','(42) 7119-7319','Sao Goncalo','RJ','1997-09-25 06:49:58.186406',

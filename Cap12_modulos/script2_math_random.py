@@ -36,3 +36,8 @@ print(cards)
 # sample
 megaSena = random.sample(range(61), 6)
 print(megaSena)
+
+# randint(start, end)
+print(random.randint(10000000000, 19999999999))
+vals = random.randrange(10000000000, 19999999999)
+print(vals)
