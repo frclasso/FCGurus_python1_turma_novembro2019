@@ -16,3 +16,5 @@ print(arquivo.name)
 arquivo.write('Python é minha linguagem favorita')
 arquivo.write('\n')
 arquivo.write('Python é minha linguagem favorita')
+arquivo.close()
+

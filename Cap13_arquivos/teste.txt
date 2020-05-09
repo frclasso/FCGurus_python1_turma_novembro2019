@@ -1,2 +1,4 @@
 Python é minha linguagem favorita
 Python é minha linguagem favorita
+Django é minha linguagem favorita
+Django é minha linguagem favorita

@@ -1,0 +1,12 @@
+Dados de clientes
+nome:Fabio
+sobrenome:Classo
+nacionalidade:Brasileiro
+estado_civil:solteiro
+formacao:Sistemas de Informacao
+Dados de clientes
+nome:Fabio
+sobrenome:Classo
+nacionalidade:Brasileiro
+estado_civil:solteiro
+formacao:Sistemas de Informacao

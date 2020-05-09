@@ -3,18 +3,7 @@ import os
 
 from clientes_autalizado import cabecalho, clientes
 
-# print(cabecalho)
-# print(clientes)
-
-# ATIVIDADE DA SEMANA
-# 1 - criar uma funcao que valide email "nome.sobrenome@empresa.com"
- # criar lista de empresas
-# 2 - criar uma funcao que valide telefone, remover caracteres que nao sejam numeros
-# 3 - criar uma funcao que valide data:  "2010-01-05"
-# 4 - criar uma funcao que leia  o coteudo da lista cientes
-
 clientes_iter = iter(clientes)
-
 
 def get_uma_linha():
     """Retorna o conteudo de uma linha"""
@@ -87,3 +76,12 @@ for c in clientes:
         print(c)
     except StopIteration:
         break
+
+
+"""Atividade
+
+    criar o caminho  - os.walk()
+
+    Escrevam o arquivo
+    .txt, .csv., .xls
+"""

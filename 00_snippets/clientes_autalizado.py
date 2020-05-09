@@ -44,13 +44,17 @@ clientes = [
     'Linda Marble',90,91871874751,'l.marble@email.com','(53) 7891-9720','Manaus','AM','1994-06-06 02:46:50.961707',
     'George Goins',64,17541077453,'g.goins@email.com','(56) 5582-7557','Sao Luis','MA','2007-01-09 09:09:46.538615',
     'Tami Blake',86,26219990919,'t.blake@email.com','(93) 1121-3963','Fortaleza','CE','2007-06-13 07:03:20.678178',
-    'Reginald Watson',92,77661364191,'r.watson@email.com','(27) 8183-2519','Porto Alegre','RS','1988-09-10 08:50:49.839149',
-    'James Pruitt',48,76349159337,'j.pruitt@email.com','(75) 3392-7525','Belo Horizonte','MG','2009-01-08 07:56:12.342991',
-    'David Redner',69,54139065088,'d.redner@email.com','(37) 5207-3391','Duque de Caxias','RJ','1980-08-18 07:31:41.462454',
+    'Reginald Watson',92,77661364191,'r.watson@email.com','(27) 8183-2519','Porto Alegre','RS','1988-09-10 '
+                                                                                               '08:50:49.839149',
+    'James Pruitt',48,76349159337,'j.pruitt@email.com','(75) 3392-7525','Belo Horizonte','MG','2009-01-08 '
+                                                                                              '07:56:12.342991',
+    'David Redner',69,54139065088,'d.redner@email.com','(37) 5207-3391','Duque de Caxias','RJ','1980-08-18 '
+                                                                                               '07:31:41.462454',
     'Ashley Lange',93,64585425998,'a.lange@email.com','(08) 2451-1700','Belem','PA','2008-02-08 16:43:24.906765',
     'Alberta Leo',34,14110370497,'a.leo@email.com','(87) 8898-3675','Recife','PE','1984-02-24 07:04:51.689902',
     'Grace Burton',64,12279843746,'g.burton@email.com','(46) 7057-5989','Recife','PE','1980-09-11 10:32:56.671245',
-    'Ryan Frascone',29,22447068788,'r.frascone@email.com','(83) 6996-0646','Campo Grande','MS','1982-12-08 01:19:06.593844',
+    'Ryan Frascone',29,22447068788,'r.frascone@email.com','(83) 6996-0646','Campo Grande','MS','1982-12-08 '\
+                                                                                               '01:19:06.593844',
     'Charles Blair',24,20631737248,'c.blair@email.com','(31) 5253-7967','Sao Luis','MA','2010-08-19 02:08:46.898834',
     'James Gourd',92,94002686987,'j.gourd@email.com','(42) 7119-7319','Sao Goncalo','RJ','1997-09-25 06:49:58.186406',
     'Carole Smith',95,87028482274,'c.smith@email.com','(17) 1099-7336','Natal','RN','2006-09-13 16:09:29.232205',
@@ -61,7 +65,8 @@ clientes = [
     'Sandra Ramsey',90,51119768616,'s.ramsey@email.com','(75) 9790-8624','Curitiba','PR','1996-08-15 19:20:37.006497',
     'Richard Titus',80,94482088531,'r.titus@email.com','(83) 3307-6981','Campinas','SP','1982-02-08 01:11:11.830200',
     'Eugene Frank',86,19910320381,'e.frank@email.com','(93) 2056-3773','Guarulhos','SP','1981-09-14 21:34:32.503417',
-    'Christopher Babiarz',29,27741686860,'c.babiarz@email.com','(62) 0826-8519','Sao Paulo','SP','2005-12-09 21:58:36.928477',
+    'Christopher Babiarz',29,27741686860,'c.babiarz@email.com','(62) 0826-8519','Sao Paulo','SP','2005-12-09 '
+                                                                                                 '21:58:36.928477',
     'Kim Weatherall',66,76582481280,'k.weatherall@email.com','(84) 1490-8342','Porto Alegre','RS','2004-12-15 14:36:15.455937',
     'William Warren',63,39259203154,'w.warren@email.com','(28) 3020-5419','Campo Grande','MS','2015-07-10 03:47:30.212734',
     'Eric Mcalister',79,11730954811,'e.mcalister@email.com','(14) 7568-9110','Campinas','SP','1981-05-28 05:12:43.403089',
@@ -80,7 +85,7 @@ clientes = [
     'Socorro Hill',19,88418732785,'s.hill@email.com','(07) 9557-9174','Belem','PA','1993-06-03 15:39:28.990992',
     'William Kruse',88,33555117117,'w.kruse@email.com','(45) 7733-3361','Salvador','BA','2002-01-10 21:06:20.436501',
     'Kelly Rose',20,77895191029,'k.rose@email.com','(93) 5759-3399','Sao Paulo','SP','2006-12-08 02:24:11.133849',
-    'Joshua Szymanski',15,62020161569,'j.szymanski@email.com,(50) 2717-9181,Goiania,GO,2014-07-20 14:39:19.814177',
+    'Joshua Szymanski',15,62020161569,'j.szymanski@email.com','(50) 2717-9181','Goiania','GO','2014-07-20 14:39:19.814177',
     'Will Mullins',34,48136354785,'w.mullins@email.com','(50) 8075-2333','Brasilia','DF','1983-06-28 15:18:12.711123',
     'Sabrina Prewitt',92,76859028426,'s.prewitt@email.com','(57) 4950-7433','Salvador','BA','1990-12-04 07:12:27.752382',
     'Rebekah Wemmer',75,37132319524,'r.wemmer@email.com','(48) 6004-3783','Curitiba','PR','2006-09-11 15:58:20.685575',
