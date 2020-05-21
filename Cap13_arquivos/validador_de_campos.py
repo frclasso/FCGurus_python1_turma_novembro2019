@@ -79,11 +79,15 @@ def cliente_autalizado(linha):
 
     return dados_atualiazdos
 
+import csv
 
-for c in clientes:
-    try:
-        linha = get_uma_linha()
-        c = cliente_autalizado(linha)
-        print(c)
-    except StopIteration:
-        break
+with open('clientes_autalizados.csv', 'a') as csv_file:
+    writer = csv.writer(csv_file)
+    for c in clientes:
+        try:
+            linha = get_uma_linha()
+            c = cliente_autalizado(linha)
+            writer.writerow(c)
+            #print(c)
+        except StopIteration:
+            break
