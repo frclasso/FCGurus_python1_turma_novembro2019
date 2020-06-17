@@ -59,12 +59,5 @@ Contatos:
 --------- 
 administracao@floripacodegurus.com.br
 
-https://www.floripacodegurus.com.br/
-
-https://www.instagram.com/floripa_code_gurus/
-
-https://twitter.com/GurusCode
-
-https://www.facebook.com/codegurs/
 
 
